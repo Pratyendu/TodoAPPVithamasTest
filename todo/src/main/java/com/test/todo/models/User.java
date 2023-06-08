@@ -19,7 +19,5 @@ public class User {
     private String userName;
     @NotBlank
     private String password;
-    @OneToMany
-    @JoinColumn(name = "todo_id")
-    private Todo todo;
+    
 }
